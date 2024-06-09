@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 2rem 2rem 2rem 2rem ;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    width: fit-content;
+    height: auto;
+}
+.logo-container h2{
+    color: #222222;
+    font-size: 1rem;
+}
+
+.Button-container{
+    width: fit-content;
+    height: auto;
+
+}
+
+.Button-container Button{
+    background-color: #222222;
+    color: #ffffff;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+    background-color: #d1d1d1;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.left-container{
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 6rem 4rem 6rem 4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   row-gap: 2rem;
+}
+.increse-sales-container{
+    width: fit-content;
+    height: auto;
+
+}
+.increse-sales-container h1{
+    font-size: 3rem;
+
+}
+.boost-sales-container{
+    width: 100%;
+    height: auto;
+}
+
+.boost-sales-container{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+.hero-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-button-container button{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.right-container{
+    width: 50%;
+    height: auto;
+}
+
+.hero-image-container{
+    width: 100%;
+    height: auto;
+}
+.hero-image-container img{
+    width: 100% ;
+    height: auto;
+}
